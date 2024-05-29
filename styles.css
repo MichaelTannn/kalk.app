@@ -1,0 +1,41 @@
+body {
+	background-color: #FDFFAB;
+}
+.container {
+	width: 800px;
+	background-color: green;
+	margin: 40px auto;
+	padding: 30px;
+	color: white;
+}
+.title {
+	text-align: center;
+}
+.content {
+	display: flex;
+	align-items: center;
+}
+.left-content {
+	width: 40%;
+	padding: 0 20px;	
+	margin:0 auto;
+	border-right: 2px solid whitesmoke;
+}
+.left-content img {
+	width: 100%;
+}
+.right-content {
+	width: 60%;
+	padding: 0 20px;	
+}
+.right-content h2 {
+	text-align: center;
+}
+label, input, button {
+	padding: 8px 20px;
+	margin: 10px auto;
+}
+footer {
+	padding: 40px;	
+	text-align: center;
+}
